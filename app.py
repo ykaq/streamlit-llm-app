@@ -8,7 +8,7 @@ import os
 os.environ["OPENAI_API_KEY"] = "OPENAI_API_KEY"
 
 # LLMの初期化
-llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0.7)
+llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.7)
 
 def get_llm_response(text: str, expert_type: str) -> str:
     """
